@@ -25,5 +25,18 @@ console.log(items);
 console.log(items.indexOf("mike") !== -1);
 
 
-// for reference data type 
+// for reference data type search methods
 
+
+const orders = [
+    {id: 1, item:"phone" , qunt: 1},
+    {id: 2, item:"watch" , qunt: 1},
+    {id: 3, item:"card" , qunt: 1},
+    {id: 4, item:"lap" , qunt: 1}
+]
+
+let results = orders.findIndex (function(order) {
+    return order.item === "card" 
+})
+
+console.log(results);
