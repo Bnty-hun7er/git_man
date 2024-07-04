@@ -24,3 +24,6 @@ console.log(items);
 
 console.log(items.indexOf("mike") !== -1);
 
+
+// for reference data type 
+
